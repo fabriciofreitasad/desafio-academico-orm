@@ -18,7 +18,7 @@ public class Bloco {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	private Integer id;
 
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant inicio;
@@ -33,18 +33,18 @@ public class Bloco {
 	public Bloco() {
 	}
 
-	public Bloco(Long id, Instant inicio, Instant fim, Atividade atividade) {
+	public Bloco(Integer id, Instant inicio, Instant fim, Atividade atividade) {
 		this.id = id;
 		this.inicio = inicio;
 		this.fim = fim;
 		this.atividade = atividade;
 	}
 
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
