@@ -42,12 +42,12 @@ O servidor estará disponível em http://localhost:8081. Você pode acessar o co
 ## Utilização das APIs
 Este projeto possui uma API REST básica para gerenciamento de objetos no Modelo de Domínio. As operações disponíveis incluem:
 
-Consulta de todos os objetos: GET /objetos
-Consulta de um objeto específico: GET /objetos/{id}
-Criação de um novo objeto: POST /objetos
-Atualização de um objeto existente: PUT /objetos/{id}
-Exclusão de um objeto: DELETE /objetos/{id}
-Você pode utilizar o Postman ou qualquer outra ferramenta para fazer requisições HTTP para a API e testar as funcionalidades.
+* Consulta de todos os objetos: GET /objetos
+* Consulta de um objeto específico: GET /objetos/{id}
+* Criação de um novo objeto: POST /objetos
+* Atualização de um objeto existente: PUT /objetos/{id}
+* Exclusão de um objeto: DELETE /objetos/{id}
+* Você pode utilizar o Postman ou qualquer outra ferramenta para fazer requisições HTTP para a API e testar as funcionalidades.
 
 ## Contribuindo
 Se você deseja contribuir para este projeto, fique à vontade para fazer um fork do repositório e enviar suas propostas de melhorias através de pull requests.
